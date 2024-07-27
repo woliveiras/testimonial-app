@@ -10,6 +10,7 @@ export default function Layout() {
           options={{
             drawerLabel: "Home",
             title: "Testimonial App",
+            drawerLabelStyle: { fontSize: 18 },
           }}
         />
         <Drawer.Screen
@@ -17,6 +18,7 @@ export default function Layout() {
           options={{
             drawerLabel: "Kléber Maurício",
             title: "Testimonial App",
+            drawerLabelStyle: { fontSize: 17 },
           }}
         />
         <Drawer.Screen
@@ -24,6 +26,7 @@ export default function Layout() {
           options={{
             drawerLabel: "Kassandra Helenna",
             title: "Testimonial App",
+            drawerLabelStyle: { fontSize: 17 },
           }}
         />
         <Drawer.Screen
@@ -31,6 +34,7 @@ export default function Layout() {
           options={{
             drawerLabel: "Geremmyas Eduardo",
             title: "Testimonial App",
+            drawerLabelStyle: { fontSize: 17 },
           }}
         />
         <Drawer.Screen
@@ -38,6 +42,7 @@ export default function Layout() {
           options={{
             drawerLabel: "Olga",
             title: "Testimonial App",
+            drawerLabelStyle: { fontSize: 17 },
           }}
         />
       </Drawer>
